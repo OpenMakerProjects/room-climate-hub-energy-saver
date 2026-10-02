@@ -1,0 +1,20 @@
+{
+  "id": 4,
+  "title": "Room Climate Hub Energy Saver",
+  "repository_slug": "room-climate-hub-energy-saver",
+  "category": "Smart Home",
+  "platform": "ESP8266",
+  "platform_family": "arduino",
+  "difficulty": "Advanced",
+  "estimated_hours": 52,
+  "connectivity": "BLE",
+  "components": [
+    "OLED display",
+    "door sensor"
+  ],
+  "scope": "Build a smart home prototype that uses OLED display, door sensor to reduce unnecessary power use. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Energy Saver demonstration with repeatable test steps",
+  "mode": "interactive_monitor",
+  "entrypoint": "firmware/room-climate-hub-energy-saver/room-climate-hub-energy-saver.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
