@@ -1,9 +1,1 @@
-# Architecture
-
-```text
-Sensors -> validation and filtering -> interactive monitor -> output/alert
-                                      |
-                                      +-> BLE telemetry and logs
-```
-
-The implementation separates acquisition, decision logic, output handling, and telemetry. Hardware-specific access is kept at the edge so the core behavior can be tested with simulated readings.
+See README architecture and docs/circuit-diagram.svg. Door debounce → automatic idle/wake policy → OLED desired state; BLE transparent UART exposes STATUS and WAKE. No appliance control.
