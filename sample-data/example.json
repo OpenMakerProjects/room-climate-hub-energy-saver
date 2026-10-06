@@ -1,12 +1,7 @@
 {
-  "project_id": 4,
-  "timestamp": "2026-01-01T00:00:00Z",
-  "state": "normal",
-  "score": 0.42,
-  "output": false,
-  "values": [
-    0.38,
-    0.43,
-    0.45
-  ]
+  "id": 4,
+  "door_open": false,
+  "display_on": false,
+  "oled_present": true,
+  "override_active": false
 }
